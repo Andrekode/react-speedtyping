@@ -1,0 +1,51 @@
+html, body {
+    background-color: black;
+    color: #00b800;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    font-family: cursive;
+    text-align: center;
+}
+
+body {
+    font-weight: 400;
+}
+
+
+button {
+    font-family: cursive;
+    display: block;
+    margin: 0 auto;
+    background-color: #a80020;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+
+h1,h2 {
+    font-size: 20px;
+    text-align: center;
+} 
+
+
+textarea {
+    font-family: cursive;
+    border: 5px solid black;
+    width: 90%;
+    margin: 0 auto;
+    outline: none;
+    height: 200px;
+    background-color: #00b800;
+    padding: 10px;
+}
+
+
+textarea:disabled {
+    background-color: #a5a2a2;
+}
