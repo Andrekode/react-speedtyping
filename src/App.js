@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 import React, { useState, useEffect, useRef } from "react";
 
 const COUNT_DOWN_TIME = 5;
-=======
-import React, {useState, useEffect, useRef} from 'react'
->>>>>>> 80c85754bdc9f4d5b6229c257ab3d00954ee64c4
 
 function App() {
   const [textBox, setTextBox] = useState("");
@@ -49,7 +45,6 @@ function App() {
   }, [countDown, startGame]);
 
   return (
-<<<<<<< HEAD
     <div>
       <h1>Speedtyping</h1>
       <textarea
@@ -64,16 +59,7 @@ function App() {
         Start
       </button>
       <h4>Word count: {wordCount}</h4>
-=======
-    <div >
-      <h1>Speedtyping</h1>
-      <textarea></textarea>
-      <h1>Count down: ???</h1>
-      <button>Start</button>
-      <h4>Word count: ???</h4>
->>>>>>> 80c85754bdc9f4d5b6229c257ab3d00954ee64c4
     </div>
-
   );
 }
 
